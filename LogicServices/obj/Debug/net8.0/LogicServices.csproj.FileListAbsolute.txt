@@ -1,0 +1,11 @@
+D:\Documents\College Homework+Assignments\2024 - Fall\Software Testing\SWE 3643 Semester Project\LogicServices\bin\Debug\net8.0\LogicServices.deps.json
+D:\Documents\College Homework+Assignments\2024 - Fall\Software Testing\SWE 3643 Semester Project\LogicServices\bin\Debug\net8.0\LogicServices.dll
+D:\Documents\College Homework+Assignments\2024 - Fall\Software Testing\SWE 3643 Semester Project\LogicServices\bin\Debug\net8.0\LogicServices.pdb
+D:\Documents\College Homework+Assignments\2024 - Fall\Software Testing\SWE 3643 Semester Project\LogicServices\obj\Debug\net8.0\LogicServices.GeneratedMSBuildEditorConfig.editorconfig
+D:\Documents\College Homework+Assignments\2024 - Fall\Software Testing\SWE 3643 Semester Project\LogicServices\obj\Debug\net8.0\LogicServices.AssemblyInfoInputs.cache
+D:\Documents\College Homework+Assignments\2024 - Fall\Software Testing\SWE 3643 Semester Project\LogicServices\obj\Debug\net8.0\LogicServices.AssemblyInfo.cs
+D:\Documents\College Homework+Assignments\2024 - Fall\Software Testing\SWE 3643 Semester Project\LogicServices\obj\Debug\net8.0\LogicServices.csproj.CoreCompileInputs.cache
+D:\Documents\College Homework+Assignments\2024 - Fall\Software Testing\SWE 3643 Semester Project\LogicServices\obj\Debug\net8.0\LogicServices.dll
+D:\Documents\College Homework+Assignments\2024 - Fall\Software Testing\SWE 3643 Semester Project\LogicServices\obj\Debug\net8.0\refint\LogicServices.dll
+D:\Documents\College Homework+Assignments\2024 - Fall\Software Testing\SWE 3643 Semester Project\LogicServices\obj\Debug\net8.0\LogicServices.pdb
+D:\Documents\College Homework+Assignments\2024 - Fall\Software Testing\SWE 3643 Semester Project\LogicServices\obj\Debug\net8.0\ref\LogicServices.dll

@@ -1,0 +1,104 @@
+html, body
+{
+   font-size: 16px;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+}
+
+content
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 50%;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#header
+{
+   flex: 1;
+   display: flex;
+   justify-content: space-between;
+}
+
+#header > span
+{
+   flex: 1 1 auto;
+}
+
+#title
+{
+   color: rgb(0, 0, 0); 
+   font-family: Helvetica, Arial, sans-serif; 
+   font-size: 1.625em; 
+   font-style: normal; 
+   font-weight: 400; 
+   letter-spacing: 0px; 
+   text-align: left; 
+   text-decoration: none; 
+   vertical-align: middle; 
+   width: 131px; 
+   height: auto; 
+   padding: 0px; 
+   white-space: pre; 
+   overflow-wrap: break-word; word-break: break-word;
+   font-size: 1.5em;
+   font-weight: bolder;
+}
+
+.error
+{
+   background-color: red;
+   color: white;
+}
+
+.normal
+{
+   background-color: peachpuff;
+   color: black;
+}
+
+.display
+{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   flex: 1 0 auto;
+   height: 4em;
+   margin: 1em 0;
+}
+
+#valuesInput
+{
+   width: 100%;
+   height: 6em;
+   flex: 1 0 auto;
+}
+
+button
+{
+   width: 100%;
+   flex: 1 0 100%;
+   margin: .5em 0;
+}
+
+.operation-block
+{
+   margin-top: 1em;
+}
+
+.block-label
+{
+   font-family: Helvetica, Arial, sans-serif; 
+   font-size: 1.1em; 
+   font-style: normal; 
+   font-weight: 600; 
+   letter-spacing: 0px; 
+}

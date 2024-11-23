@@ -1,0 +1,36 @@
+﻿<content>
+
+    <div id="header">
+        <span id="title">Calculator</span>
+        <span><button id="clear">Clear</button></span>
+    </div>
+
+    <div id="display" class="display normal"></div>
+
+    <div>Values</div>
+
+    <div><textarea id="valuesInput"></textarea></div>
+
+    <div class="operation-block">
+        <div class="block-label">Descriptive Statistics</div>
+        <button id="stdDev">Compute Sample Standard Deviation | one value per line</button>
+        <button id="popStdDev">Compute Population Standard Deviation | one value per line</button>
+        <button id="mean">Compute Mean | one value per line</button>
+        <button id="zscore">Compute Z Score | value, mean, stdDev on one line</button>
+    </div>
+
+    <div class="operation-block">
+        <div class="block-label">Single Linear Regression</div>
+        <button id="linreg">Compute Single Linear Regression Formula | one x,y pair per line</button>
+        <button id="compy">Compute Y from Linear Regression Formula | x, m, b on one line</button>
+    </div>
+
+</content>
+
+<script>
+    window.onload = function ()
+    {
+        let controller = new calculator();
+        controller.init();
+    }
+</script>

@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "Hash": "Pa9nAXVBRg618ZQ2v8H6Y+ZIHXig7pOgvJwKPplDIB4=",
+  "Source": "Backend",
+  "BasePath": "_content/Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Backend\\wwwroot",
+      "Source": "Backend",
+      "ContentRoot": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Backend.styles.css",
+      "SourceId": "Backend",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "Backend#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "lbiypwdwny",
+      "Integrity": "QZo4pD/hGgomQV/SPBCOmh7CXcmWAyXt5zHFWLs8JCE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Backend.styles.css"
+    },
+    {
+      "Identity": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Backend.bundle.scp.css",
+      "SourceId": "Backend",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "Backend#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "lbiypwdwny",
+      "Integrity": "QZo4pD/hGgomQV/SPBCOmh7CXcmWAyXt5zHFWLs8JCE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Backend.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\css\\site.css",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "css/site#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "39tnsaiqss",
+      "Integrity": "15cm7zUBKt8ElOosUYpS+WWYKgA6BcNrmUm5CF4ES1Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\favicon.ico",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "favicon#[.{fingerprint}]?.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "61n19gt1b8",
+      "Integrity": "Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\js\\site.js",
+      "SourceId": "Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\",
+      "BasePath": "_content/Backend",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7q3tikjw73",
+      "Integrity": "HwpQjSfsCDpq5/BoF6muQWZ/vZ2NMWzOJ+WFiQoF7vk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "Backend.bundle.scp.css",
+      "AssetFile": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Backend.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QZo4pD/hGgomQV/SPBCOmh7CXcmWAyXt5zHFWLs8JCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Nov 2024 22:00:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QZo4pD/hGgomQV/SPBCOmh7CXcmWAyXt5zHFWLs8JCE="
+        }
+      ]
+    },
+    {
+      "Route": "Backend.lbiypwdwny.bundle.scp.css",
+      "AssetFile": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Backend.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QZo4pD/hGgomQV/SPBCOmh7CXcmWAyXt5zHFWLs8JCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Nov 2024 22:00:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lbiypwdwny"
+        },
+        {
+          "Name": "label",
+          "Value": "Backend.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QZo4pD/hGgomQV/SPBCOmh7CXcmWAyXt5zHFWLs8JCE="
+        }
+      ]
+    },
+    {
+      "Route": "Backend.lbiypwdwny.styles.css",
+      "AssetFile": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Backend.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QZo4pD/hGgomQV/SPBCOmh7CXcmWAyXt5zHFWLs8JCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Nov 2024 22:00:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lbiypwdwny"
+        },
+        {
+          "Name": "label",
+          "Value": "Backend.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QZo4pD/hGgomQV/SPBCOmh7CXcmWAyXt5zHFWLs8JCE="
+        }
+      ]
+    },
+    {
+      "Route": "Backend.styles.css",
+      "AssetFile": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Backend.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1125"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QZo4pD/hGgomQV/SPBCOmh7CXcmWAyXt5zHFWLs8JCE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 13 Nov 2024 22:00:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QZo4pD/hGgomQV/SPBCOmh7CXcmWAyXt5zHFWLs8JCE="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.39tnsaiqss.css",
+      "AssetFile": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"15cm7zUBKt8ElOosUYpS+WWYKgA6BcNrmUm5CF4ES1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 Nov 2024 18:38:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "39tnsaiqss"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-15cm7zUBKt8ElOosUYpS+WWYKgA6BcNrmUm5CF4ES1Y="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css",
+      "AssetFile": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1581"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"15cm7zUBKt8ElOosUYpS+WWYKgA6BcNrmUm5CF4ES1Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 Nov 2024 18:38:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-15cm7zUBKt8ElOosUYpS+WWYKgA6BcNrmUm5CF4ES1Y="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.61n19gt1b8.ico",
+      "AssetFile": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Nov 2024 18:48:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "61n19gt1b8"
+        },
+        {
+          "Name": "label",
+          "Value": "favicon.ico"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "favicon.ico",
+      "AssetFile": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\favicon.ico",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5430"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/x-icon"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Nov 2024 18:48:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Jtxf9L+5ITKRc1gIRl4VbUpGkRNfOBXjYTdhJD4facM="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.7q3tikjw73.js",
+      "AssetFile": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HwpQjSfsCDpq5/BoF6muQWZ/vZ2NMWzOJ+WFiQoF7vk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 Nov 2024 18:39:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7q3tikjw73"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HwpQjSfsCDpq5/BoF6muQWZ/vZ2NMWzOJ+WFiQoF7vk="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "D:\\Documents\\College Homework+Assignments\\2024 - Fall\\Software Testing\\SWE 3643 Semester Project\\Backend\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4660"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HwpQjSfsCDpq5/BoF6muQWZ/vZ2NMWzOJ+WFiQoF7vk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 16 Nov 2024 18:39:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HwpQjSfsCDpq5/BoF6muQWZ/vZ2NMWzOJ+WFiQoF7vk="
+        }
+      ]
+    }
+  ]
+}
