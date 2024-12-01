@@ -14,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class LogicUnitTests {
 
     //-------------------------------------------------------------------
-    //INPUT VALIDATION FOR SAMPLE STANDARD DEVIATION UNIT TESTS
+    //INPUT VALIDATION UNIT TESTS FOR SAMPLE STANDARD DEVIATION
     @Test
     void IsDataValidForSampleStandardDeviation_AcceptsValidString_ReturnsListOfDoubles()
     {
@@ -75,7 +75,7 @@ class LogicUnitTests {
 
 
     //-----------------------------------------------------------------------
-    //INPUT VALIDATION FOR POPULATION STANDARD DEVIATION UNIT TESTS
+    //INPUT VALIDATION UNIT TESTS FOR POPULATION STANDARD DEVIATION
     @Test
     void IsDataValidForPopulationStandardDeviation_AcceptsValidString_ReturnsListOfDoubles()
     {
@@ -135,7 +135,7 @@ class LogicUnitTests {
 
 
     //--------------------------------------------------------------------
-    //TESTING MEAN CALCULATION
+    //INPUT VALIDATION UNIT TESTS FOR MEAN
     @Test
     void IsDataValidForMean_AcceptsValidString_ReturnsListOfDoubles()
     {
@@ -190,7 +190,7 @@ class LogicUnitTests {
 
 
     //------------------------------------------------------
-    //INPUT VALIDATION FOR Z SCORE
+    //INPUT VALIDATION UNIT TESTS FOR Z SCORE
     @Test
     void IsDataValidForZScore_AcceptsValidString_ReturnsZScoreInput()
     {
@@ -304,7 +304,6 @@ class LogicUnitTests {
     @Test
     void CalculatesPopulationDeviation_ValidList_ReturnsDouble()
     {
-        //for sample standard deviation
         DescriptiveStatistics ds = new DescriptiveStatistics();
         List<Double> list = new ArrayList<Double>();
         list.add(9.0);
@@ -319,7 +318,6 @@ class LogicUnitTests {
     @Test
     void CalculatesPopulationDeviation_ListOfZeroes_ReturnsDouble()
     {
-        //for sample standard deviation
         DescriptiveStatistics ds = new DescriptiveStatistics();
         List<Double> list = new ArrayList<Double>();
         list.add(0.0);
@@ -334,7 +332,6 @@ class LogicUnitTests {
     @Test
     void CalculatesPopulationDeviation_EmptyOrNullList_ReturnsNull()
     {
-        //for sample standard deviation
         DescriptiveStatistics ds = new DescriptiveStatistics();
         List<Double> list = new ArrayList<Double>();
         Double result = ds.PopulationStandardDeviation(list);
@@ -348,7 +345,6 @@ class LogicUnitTests {
     @Test
     void CalculatesPopulationDeviation_ListWith1Sample_ReturnsDouble()
     {
-        //for sample standard deviation
         DescriptiveStatistics ds = new DescriptiveStatistics();
         List<Double> list = new ArrayList<Double>();
         list.add(5.0);
@@ -430,8 +426,10 @@ class LogicUnitTests {
     // Extraction/Parsing Functions
     // ---------------------------------------------------------------------
 
+
+
     //-----------------------------------------------------------------------
-    //INPUT VALIDATION FOR LINEAR REGRESSION UNIT TESTS
+    // INPUT VALIDATION UNIT TESTS FOR LINEAR REGRESSION
     @Test
     void IsDataValidForLinearRegression_StringOfXYPairs_ReturnsList()
     {
@@ -541,7 +539,7 @@ class LogicUnitTests {
 
 
     //-----------------------------------------------------------------------
-    //INPUT VALIDATION FOR Y VALUE UNIT TESTS
+    //INPUT VALIDATION UNIT TESTS FOR Y VALUE
     @Test
     void IsDataValidForYValue_ValidString_ReturnsXMBInput()
     {
@@ -582,7 +580,7 @@ class LogicUnitTests {
 
 
     //-----------------------------------------------------------------------
-    //INPUT VALIDATION FOR CALCULATE LINEAR REGRESSION UNIT TESTS
+    //INPUT VALIDATION UNIT TESTS FOR CALCULATE LINEAR REGRESSION
     @Test
     void CalculateLinearRegression_AcceptsListOfXYPairs_ReturnsString()
     {
