@@ -1,3 +1,5 @@
+#### KSU SWE 3643:<br/>SWE3643 Section 1<br/>Semester Project
+
 This repository includes all the necessary files to run a Java-based webapp representing a statistics calculator and a Junit test module that covers all code paths of the calculator logic module. 
 
 - [Architectural diagram](#architectural-diagram)
