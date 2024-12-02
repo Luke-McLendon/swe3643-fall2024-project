@@ -5,21 +5,23 @@ This repository includes all the necessary files to run a Java-based webapp repr
 
 ## Table of Contents
   [Team Members](#team-members)
-- [Architectural diagram](#architectural-diagram)
-- [Run from CMD](#Instructions-to-run-from-CMD)
-- [Screenshots of Unit Tests](#Screenshots-of-all-unit-tests-in-IDE)
+  [Architectural diagram](#architectural-diagram)
+  [Environment](#environment)
+- [Executing the Web Application](#Instructions-to-run-from-CMD)
+- [Reviewing Unit Test Coverage](#Screenshots-of-all-unit-tests-in-IDE)
 - [YouTube Presentation](#Link-to-YT-video-here)
 
-# Team Members
+# Team Members:
 Luke McLendon
 
 # Architectural diagram:
 
 ![image](https://github.com/user-attachments/assets/544ae207-c1a6-4906-aa2b-b4455095f0b2)
 
+# Environment:
+what goes here??????????
 
-
-# Instructions to run from CMD:
+# Executing the Web Application:
 *In theory, having all the required dependencies and then running this in cmd should run the program (if you edit every single directory in it, which is unrealistic)
 
 Jackson Core Json library, Tomcat, and SpringBoot(?) dependencies are included in the project, but JUnit is black magic and is presumably not included. Junit-Jupiter 5.11 was installed via Maven.
@@ -92,7 +94,7 @@ Jackson Core Json library, Tomcat, and SpringBoot(?) dependencies are included i
       com.calculator.CalculatorApplication
 
 
-# Screenshots of all unit tests in IDE:
+# Reviewing Unit Test Coverage:
 Sample standard deviation input validation unit tests
 
 ![alt text](https://github.com/user-attachments/assets/e5131d00-44c4-4e21-84bb-ae1d43c7a705)
