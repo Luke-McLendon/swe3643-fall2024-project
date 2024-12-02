@@ -1,6 +1,7 @@
 This repository includes all the necessary files to run a Java-based webapp representing a statistics calculator and a Junit test module that covers all code paths of the calculator logic module. 
 
 - [Architectural diagram](#architectural-diagram)
+- [Screenshots of Unit Tests](#unit-tests)
 
 # Architectural diagram:
 
@@ -8,7 +9,7 @@ This repository includes all the necessary files to run a Java-based webapp repr
 
 
 
-Instructions to run from CMD:
+# Instructions to run from CMD:
 *In theory, having all the required dependencies and then running this in cmd should run the program (if you edit every single directory in it, which is unrealistic)
 
 Jackson Core Json library, Tomcat, and SpringBoot(?) dependencies are included in the project, but JUnit is black magic and is presumably not included. Junit-Jupiter 5.11 was installed via Maven.
@@ -81,7 +82,7 @@ Jackson Core Json library, Tomcat, and SpringBoot(?) dependencies are included i
       com.calculator.CalculatorApplication
 
 
-Screenshots of all unit tests in IDE:
+# Screenshots of all unit tests in IDE:
 Sample standard deviation input validation unit tests
 
 ![alt text](https://github.com/user-attachments/assets/e5131d00-44c4-4e21-84bb-ae1d43c7a705)
@@ -107,5 +108,5 @@ All calculation logic unit tests
 ![alt text](https://github.com/user-attachments/assets/11061ce4-57e6-4264-8b3a-e0f797d04a86)
 
 
-Link to YT video here:
+# Link to YT video here:
 [YouTube Video link] ----------------
