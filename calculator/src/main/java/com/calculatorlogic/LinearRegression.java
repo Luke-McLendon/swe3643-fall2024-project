@@ -21,12 +21,8 @@ public class LinearRegression
 
       for (String s : ary)
       {
-         if (s != "")
-         {
-            // TODO: The standard parser for Double strips commas. So 3,3,0 becomes 330. Find a fix for this.
-            Double d = Double.valueOf(s);
-            values.add(d);
-         }
+         Double d = Double.valueOf(s);
+         values.add(d);
       }
 
       return values;
@@ -46,13 +42,16 @@ public class LinearRegression
 
          for (String s: ary)
          {
-            if (s != "")
+            if (!s.isEmpty())
             {
                // Expect two values per line (comma separated).
                String[] xy = s.split(",");
 
                if (xy.length != 2)
+               {
+                  //System.out.println("lr length not 2");
                   return (null);
+               }
 
                XYPair pair = new XYPair();
                pair.x = Double.valueOf(xy[0]);
@@ -63,38 +62,52 @@ public class LinearRegression
       }
       catch(Exception e)
       {
+         //System.out.println("lr exception");
          return (null);
       }
 
-      if (values.size() == 0)
+      if (values.isEmpty())
+      {
+         //System.out.println("lr size is 0");
          return null;
-
+      }
+      //System.out.println("lr good");
       return values;
    }
 
 
    public XMBInput IsDataValidForYValue (String input)
    {
-      System.out.println(input);
       XMBInput d = new XMBInput ();
       try
       {
          List<Double> values = ParseForDoublesLine(input);
 
-         if ((values == null) || (values.size() != 3))
-            return null;
+         //System.out.println(values);
+         //if (values == null)
+         //{
+         //   //System.out.println("y value bad");
+         //   return (null);
+         //}
+         if (values.size() != 3)
+         {
+            return (null);
+         }
          else
          {
             d.x = values.get(0);
             d.m = values.get(1);
             d.b = values.get(2);
+            //System.out.println("y value good");
          }
-         return (d);
       }
+
       catch (Exception e)
       {
+         //System.out.println("y value exception");
          return (null);
       }
+      return (d);
    }
 
    public String CalculateLinearRegression(List<XYPair> values)

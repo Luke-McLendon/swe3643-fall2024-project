@@ -15,7 +15,7 @@ public class ZScoreInput
     {
         ZScoreInput z = (ZScoreInput)o;
 
-        if ((z.value == value) && (z.mean == mean)  && (z.stdDev == stdDev))
+        if ((z.value == value) && (z.mean == mean) && (z.stdDev == stdDev))
             return true;
         return false;
     }

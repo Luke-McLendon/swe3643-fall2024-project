@@ -253,6 +253,7 @@ class LogicUnitTests {
 
 
 
+
     //---------------------------------------------------------
     //CALCULATION FUNCTIONS
     //---------------------------------------------------------
@@ -367,6 +368,14 @@ class LogicUnitTests {
     void Mean_EmptyList_ReturnsNull()
     {
         List<Double> list = new ArrayList<Double>();
+        DescriptiveStatistics ds = new DescriptiveStatistics();
+        assertNull(ds.Mean(list));
+    }
+
+    @Test
+    void Mean_AcceptsNull_ReturnsNull()
+    {
+        List<Double> list = null;
         DescriptiveStatistics ds = new DescriptiveStatistics();
         assertNull(ds.Mean(list));
     }
@@ -541,7 +550,7 @@ class LogicUnitTests {
     //-----------------------------------------------------------------------
     //INPUT VALIDATION UNIT TESTS FOR Y VALUE
     @Test
-    void IsDataValidForYValue_ValidString_ReturnsXMBInput()
+    void IsDataValidForYValue_AcceptsValidString_ReturnsXMBInput()
     {
         String input = "1,4,1";
 
@@ -554,16 +563,22 @@ class LogicUnitTests {
     }
 
     @Test
-    void IsDataValidForYValue_NullOrNot3Values_ReturnsNull()
+    void IsDataValidForYValue_Not3Values_ReturnsNull()
+    {
+        String input = "1,4";
+
+        LinearRegression lr = new LinearRegression();
+        XMBInput result = lr.IsDataValidForYValue(input);
+        assertNull(result);
+    }
+
+    @Test
+    void IsDataValidForYValue_AcceptsNull_ReturnsNull()
     {
         String input = null;
 
         LinearRegression lr = new LinearRegression();
         XMBInput result = lr.IsDataValidForYValue(input);
-        assertNull(result);
-
-        input = "1,4";
-        result = lr.IsDataValidForYValue(input);
         assertNull(result);
     }
 
@@ -608,15 +623,20 @@ class LogicUnitTests {
     }
 
     @Test
-    void CalculateLinearRegression_AcceptsEmptyOrNullListOfXYPairs_ReturnsNull()
+    void CalculateLinearRegression_AcceptsEmptyListOfXYPairs_ReturnsNull()
     {
         List<XYPair> input = new ArrayList<XYPair>();
         LinearRegression lr = new LinearRegression();
         String result = lr.CalculateLinearRegression(input);
         assertNull(result);
+    }
 
-        input = null;
-        result = lr.CalculateLinearRegression(input);
+    @Test
+    void CalculateLinearRegression_AcceptsNullListOfXYPairs_ReturnsNull()
+    {
+        List<XYPair> input = null;
+        LinearRegression lr = new LinearRegression();
+        String result = lr.CalculateLinearRegression(input);
         assertNull(result);
     }
 

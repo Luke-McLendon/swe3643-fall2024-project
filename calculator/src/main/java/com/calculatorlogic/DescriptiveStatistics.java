@@ -21,25 +21,7 @@ public class DescriptiveStatistics
       String[] ary = blah3.split(",");
       for (String s : ary)
       {
-         if (s != "")
-            // TODO: The standard parser for Double strips commas. So 3,3,0 becomes 330. Find a fix for this.
-            values.add(Double.valueOf(s));
-      }
-
-      return values;
-   }
-
-   //get rid of this - unused
-   private List<Double> ParseForDoublesLine(String input)
-   {
-      List<Double> values = new ArrayList<Double>();
-
-      // First split the input by commas.
-      String[] ary = input.split(",");
-
-      for (String s : ary)
-      {
-         if (s != "")
+         if (!s.isEmpty())
             // TODO: The standard parser for Double strips commas. So 3,3,0 becomes 330. Find a fix for this.
             values.add(Double.valueOf(s));
       }
@@ -61,7 +43,7 @@ public class DescriptiveStatistics
       {
          values = ParseForDoublesList(input);
 
-         if ((values == null) || (values.size() == 0))
+         if (values.isEmpty())
             return null;
       }
       catch (Exception e)
@@ -86,27 +68,21 @@ public class DescriptiveStatistics
    // Trivial pass-through specifically for standard deviation (in case more specific validations become desired).
    public List<Double> IsDataValidForPopulationStandardDeviation(String input)
    {
-      List<Double> values = IsValidDoubleList(input);
-
-      if ((values == null) || (values.size() < 1))
-         return null;
-
-      return values;
+      return IsValidDoubleList(input);
    }
 
    // Trivial pass-through specifically for mean (in case more specific validations become desired).
    public List<Double> IsDataValidForMean(String input)
    {
-      List<Double> values = IsValidDoubleList(input);
-
-      if ((values == null) || (values.size() < 1))
-         return null;
-
-      return values;
+      return IsValidDoubleList(input);
    }
 
    public ZScoreInput IsDataValidForZScore(String input)
    {
+      //need to do proper validation here
+      if (input == null)
+         return null;
+
       ObjectMapper om = new ObjectMapper();
       ZScoreInput i = null;
 
@@ -119,10 +95,6 @@ public class DescriptiveStatistics
          //System.out.println(e.getMessage());
          return (null);
       }
-
-      //need to do proper validation here
-      if (input == null)
-         return null;
 
       return (i);
    }
@@ -160,7 +132,7 @@ public class DescriptiveStatistics
    //sample standard deviation
    public Double StandardDeviation(List<Double> values)
    {
-      if ((values == null) || (values.size() == 0))
+      if ((values == null) || (values.isEmpty()))
          return null;
       // Get the sum of the squares of the differences between the values and the mean.
       double sumOfSquares = SumOfSquares(values);
@@ -170,7 +142,7 @@ public class DescriptiveStatistics
 
    public Double PopulationStandardDeviation(List<Double> values)
    {
-      if ((values == null) || (values.size() == 0))
+      if ((values == null) || (values.isEmpty()))
          return null;
       double sumOfSquares = SumOfSquares(values);
 
@@ -179,17 +151,15 @@ public class DescriptiveStatistics
 
    public Double Mean(List<Double> values)
    {
-      if ((values == null) || (values.size() == 0))
+      if ((values == null) || (values.isEmpty()))
          return null;
-      Double mean = SummationOfList(values) / values.size();
-      return (mean);
+      return SummationOfList(values) / values.size();
    }
 
    public Double ZScore(ZScoreInput input)
    {
       if ((input == null) || (input.stdDev == 0.0))
          return null;
-      Double zScore = (input.value - input.mean) / input.stdDev;
-      return (zScore);
+      return (input.value - input.mean) / input.stdDev;
    }
 }
