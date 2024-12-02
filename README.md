@@ -19,9 +19,9 @@ Luke McLendon
 ![image](https://github.com/user-attachments/assets/544ae207-c1a6-4906-aa2b-b4455095f0b2)
 
 # Environment:
-what goes here??????????
+Explain how to configure the environment to execute your web application, unit tests, and end-to-end tests......................
 
-# Executing the Web Application:
+## Executing the Web Application:
 *In theory, having all the required dependencies and then running this in cmd should run the program (if you edit every single directory in it, which is unrealistic)
 
 Jackson Core Json library, Tomcat, and SpringBoot(?) dependencies are included in the project, but JUnit is black magic and is presumably not included. Junit-Jupiter 5.11 was installed via Maven.
