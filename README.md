@@ -1,6 +1,8 @@
 This repository includes all the necessary files to run a Java-based webapp representing a statistics calculator and a Junit test module that covers all code paths of the calculator logic module. 
 
-Architectural diagram:
+- [Architectural diagram](#architectural-diagram)
+
+# Architectural diagram:
 
 ![image](https://github.com/user-attachments/assets/544ae207-c1a6-4906-aa2b-b4455095f0b2)
 
