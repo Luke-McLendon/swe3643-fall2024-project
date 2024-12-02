@@ -7,9 +7,9 @@ This repository includes all the necessary files to run a Java-based webapp repr
   [Team Members](#team-members)
   [Architectural diagram](#architectural-diagram)
 - [Environment](#environment)
-  [Executing the Web Application](#Instructions-to-run-from-CMD)
-  [Reviewing Unit Test Coverage](#Screenshots-of-all-unit-tests-in-IDE)
-  [YouTube Presentation](#Link-to-YT-video-here)
+- [Executing the Web Application](#Instructions-to-run-from-CMD)
+- [Reviewing Unit Test Coverage](#Screenshots-of-all-unit-tests-in-IDE)
+- [YouTube Presentation](#Link-to-YT-video-here)
 
 # Team Members:
 Luke McLendon
