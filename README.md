@@ -9,7 +9,7 @@ This repository includes all the necessary files to run a Java-based webapp repr
 - [Environment](#environment)
   - [Executing the Web Application](#Instructions-to-run-from-CMD)
 - [Reviewing Unit Tests](#Unit-rest-review)
-- [Reviewing Unit Test Coverage](#Screenshots-of-all-unit-tests-in-IDE)
+- [Reviewing Unit Test Coverage](#Reviewing-Unit-Test-Coverage)
 - [YouTube Presentation](#Link-to-YT-video-here)
 
 # Team Members:
