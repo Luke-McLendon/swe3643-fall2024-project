@@ -10,16 +10,17 @@ This repository includes all the necessary files to run a Java-based webapp repr
   - [Executing the Web Application](#Instructions-to-run-from-CMD)
 - [Reviewing Unit Tests](#Reviewing-Unit-Tests)
 - [Reviewing Unit Test Coverage](#Reviewing-Unit-Test-Coverage)
+- [End-to-End Tests](#End-to-end-tests)
 - [YouTube Presentation](#Link-to-YT-video-here)
 
-# Team Members:
+## Team Members:
 Luke McLendon
 
-# Architectural diagram:
+## Architectural diagram:
 
 ![image](https://github.com/user-attachments/assets/544ae207-c1a6-4906-aa2b-b4455095f0b2)
 
-# Environment:
+## Environment:
 Explain how to configure the environment to execute your web application, unit tests, and end-to-end tests......................
 
 ## Executing the Web Application:
@@ -95,11 +96,11 @@ Jackson Core Json library, Tomcat, and SpringBoot(?) dependencies are included i
       com.calculator.CalculatorApplication
 
 
-# Reviewing Unit Tests:
+## Reviewing Unit Tests:
 My test code is split into two main catagories; input validation and mathematical validation. I perform extensive tests on my various functions to ensure that whatever data they take in as a parameter is handled, even if it is missing, incorrectly formatted, or otherwise wrong. My computational tests test the mathematical accuracy of my compute functions.
 
 
-# Reviewing Unit Test Coverage:
+## Reviewing Unit Test Coverage:
 The below two screenshots show my tests achieving 100% code coverage, both branch and line-wise, as well as all fourty-five tests completing and exiting.
 
 ![alt text](https://github.com/user-attachments/assets/99fb1ee9-5ae9-4493-a1a4-27d8d5ab119b)
@@ -107,10 +108,10 @@ The below two screenshots show my tests achieving 100% code coverage, both branc
 ![alt text](https://github.com/user-attachments/assets/9f643f68-303c-48ad-8acf-b37ec48d0a5c)
 
 
+## End-to-End Tests
+Unfortunately I did not have time to implement playwright end-to-end testing in this project. Playwright is not included in this project in any way.
 
 
 
-
-
-# Link to YT video here:
+## Link to YT video here:
 [YouTube Video link] ----------------
