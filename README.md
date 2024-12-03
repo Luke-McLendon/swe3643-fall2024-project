@@ -32,7 +32,7 @@ This program is built on and requires the following dependencies:
 -SpringBoot 
 
 -Junit-Jupiter 5.11
-  --is black magic and is presumably not packaged in the repository like the others (was installed via Maven)
+  *is black magic and is presumably not packaged in the repository like the others (was installed via Maven)*
 
 ## Executing the Web Application:
 In theory, executing the project from console is as easy as navigating to the application (or JAR) file's location in your file structure using the command
