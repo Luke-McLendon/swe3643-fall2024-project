@@ -4,10 +4,10 @@
 This repository includes all the necessary files to run a Java-based webapp representing a statistics calculator and a Junit test module that covers all code paths of the calculator logic module.
 
 ## Table of Contents
-  [Team Members](#team-members)
-  [Architectural diagram](#architectural-diagram)
+- [Team Members](#team-members)
+- [Architectural diagram](#architectural-diagram)
 - [Environment](#environment)
-- [Executing the Web Application](#Instructions-to-run-from-CMD)
+  - [Executing the Web Application](#Instructions-to-run-from-CMD)
 - [Reviewing Unit Test Coverage](#Screenshots-of-all-unit-tests-in-IDE)
 - [YouTube Presentation](#Link-to-YT-video-here)
 
