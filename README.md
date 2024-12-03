@@ -60,6 +60,8 @@ or
 into console.
 This, however, does not work for my project, likely due to an incorrectly configured POM file and/or misconfigured dependencies. Fixing this requires working with processes that are far beyond my level of understanding, and has thus been disregarded in favor of using the time to develop much higher-quality code.
 
+You may encounter an error saying that a service is already running on your designated port. If this happens, simply open your Services app, locate Apache Tomcat 11.0 in the list, stop the service, and rerun the program.
+
 
 
 ## Executing Unit Tests
