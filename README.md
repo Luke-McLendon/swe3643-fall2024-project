@@ -23,6 +23,13 @@ Luke McLendon
 
 ## Environment:
 Explain how to configure the environment to execute your web application, unit tests, and end-to-end tests......................
+This program is built on and requires the following dependencies:
+-Jackson Core Json library 
+-Tomcat 11.0.1
+-SpringBoot 
+-Junit-Jupiter 5.11
+  -is black magic and is presumably not included
+  -(was installed via Maven)
 
 ## Executing the Web Application:
 In theory, executing the project from console is as easy as navigating to the application (or JAR) file's location in your file structure using the command
