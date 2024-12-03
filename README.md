@@ -25,9 +25,6 @@ Luke McLendon
 Explain how to configure the environment to execute your web application, unit tests, and end-to-end tests......................
 
 ## Executing the Web Application:
-*In theory, having all the required dependencies and then running this in cmd should run the program (if you edit every single directory in it, which is unrealistic)
-
-Jackson Core Json library, Tomcat, and SpringBoot(?) dependencies are included in the project, but JUnit is black magic and is presumably not included. Junit-Jupiter 5.11 was installed via Maven.
 In theory, executing the project from console is as easy as navigating to the application (or JAR) file's location in your file structure using the command
 >cd C:\User\Documents\program etc...
 and then entering either
@@ -41,6 +38,7 @@ This, however, does not work for my project, likely due to an incorrectly config
 ## Executing Unit Tests
 Executing unit tests from cmd is equally as straight forward as running the main program should be, but in practice appears to run into the same issues. The only difference would be running
 >mvn spring-boot:run
+
 in your test file's directory instead.
 
 
