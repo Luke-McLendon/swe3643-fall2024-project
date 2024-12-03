@@ -17,6 +17,7 @@ This repository includes all the necessary files to run a Java-based webapp repr
 ## Team Members:
 Luke McLendon
 
+
 ## Architectural diagram:
 
 ![image](https://github.com/user-attachments/assets/544ae207-c1a6-4906-aa2b-b4455095f0b2)
@@ -31,6 +32,7 @@ You may notice this software isn't split up into four separate projects, and is 
 My unit tests appear a litle more involved because I'm not just validating the calculations, but also the input data for correct formatting.
 
 ---
+
 
 ## Environment:
 This program is built on and requires the following dependencies:
@@ -59,6 +61,7 @@ into console.
 This, however, does not work for my project, likely due to an incorrectly configured POM file and/or misconfigured dependencies. Fixing this requires working with processes that are far beyond my level of understanding, and has thus been disregarded in favor of using the time to develop much higher-quality code.
 
 
+
 ## Executing Unit Tests
 Executing unit tests from cmd is equally as straight forward as running the main program should be, but in practice appears to run into the same issues. The only difference would be running
 >mvn spring-boot:run
@@ -66,8 +69,10 @@ Executing unit tests from cmd is equally as straight forward as running the main
 in your test file's directory instead.
 
 
+
 ## Reviewing Unit Tests:
 My test code is split into two main catagories; input validation and mathematical validation. I perform extensive tests on my various functions to ensure that whatever data they take in as a parameter is handled, even if it is missing, incorrectly formatted, or otherwise wrong. My computational tests test the mathematical accuracy of my compute functions.
+
 
 
 ## Reviewing Unit Test Coverage:
@@ -76,6 +81,7 @@ The below two screenshots show my tests achieving 100% code coverage, both branc
 ![alt text](https://github.com/user-attachments/assets/99fb1ee9-5ae9-4493-a1a4-27d8d5ab119b)
 
 ![alt text](https://github.com/user-attachments/assets/9f643f68-303c-48ad-8acf-b37ec48d0a5c)
+
 
 
 ## End-to-End Tests
