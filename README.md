@@ -29,6 +29,7 @@ The controller responds with either an error or the result that goes back to Sit
 You may notice this software isn't split up into four separate projects, and is instead split into three packages. This is yet another artifact of how Java works, using packages instead of projects. I am missing one project (Playwright end-to-end testing) because I ran out of time to implement it. The other three are present, functional, and complete.
 
 My unit tests appear a litle more involved because I'm not just validating the calculations, but also the input data for correct formatting.
+---
 
 ## Environment:
 This program is built on and requires the following dependencies:
