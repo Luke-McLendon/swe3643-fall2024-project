@@ -90,4 +90,5 @@ Unfortunately I did not have time to implement playwright end-to-end testing in 
 
 
 ## Link to YT video here:
-[YouTube Video link] ----------------
+[YouTube Video link]
+[ ----------------](https://youtu.be/s-Rvvtuyevo)
