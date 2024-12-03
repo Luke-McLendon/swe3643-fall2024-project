@@ -34,6 +34,8 @@ This program is built on and requires the following dependencies:
 -Junit-Jupiter 5.11
   -*is black magic and is presumably not packaged in the repository like the others (was installed via Maven)*
 
+Java is based on the concept of the Java Virtual Machine allowing Java code to run on basically any platform, so there is no real reason this project would not run on any reasonably modern personal computer of any kind. It has only been tested on a computer running Windows 10, however, and no instructions are included to get it to run on anything other than a contemporary Windows system.
+
 ## Executing the Web Application:
 In theory, executing the project from console is as easy as navigating to the application (or JAR) file's location in your file structure using the command
 >cd C:\User\Documents\program etc...
