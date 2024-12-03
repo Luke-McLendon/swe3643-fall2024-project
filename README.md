@@ -27,10 +27,13 @@ Explain how to configure the environment to execute your web application, unit t
 ## Executing the Web Application:
 In theory, executing the project from console is as easy as navigating to the application (or JAR) file's location in your file structure using the command
 >cd C:\User\Documents\program etc...
+
 and then entering either
 >mvn spring-boot:run
+
 or
 >mvnw spring-boot:run
+
 into console.
 This, however, does not work for my project, likely due to an incorrectly configured POM file and/or misconfigured dependencies. Fixing this requires working with processes that are far beyond my level of understanding, and has thus been disregarded in favor of using the time to develop much higher-quality code.
 
