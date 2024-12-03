@@ -8,6 +8,7 @@ This repository includes all the necessary files to run a Java-based webapp repr
 - [Architectural diagram](#architectural-diagram)
 - [Environment](#environment)
   - [Executing the Web Application](#Instructions-to-run-from-CMD)
+- [Reviewing Unit Tests](#Unit-rest-review)
 - [Reviewing Unit Test Coverage](#Screenshots-of-all-unit-tests-in-IDE)
 - [YouTube Presentation](#Link-to-YT-video-here)
 
@@ -94,30 +95,21 @@ Jackson Core Json library, Tomcat, and SpringBoot(?) dependencies are included i
       com.calculator.CalculatorApplication
 
 
+# Reviewing Unit Tests:
+My test code is split into two main catagories; input validation and mathematical validation. I perform extensive tests on my various functions to ensure that whatever data they take in as a parameter is handled, even if it is missing, incorrectly formatted, or otherwise wrong. My computational tests test the mathematical accuracy of my compute functions.
+
+
 # Reviewing Unit Test Coverage:
-Sample standard deviation input validation unit tests
+The below two screenshots show my tests achieving 100% code coverage, both branch and line-wise, as well as all fourty-five tests completing and exiting.
 
-![alt text](https://github.com/user-attachments/assets/e5131d00-44c4-4e21-84bb-ae1d43c7a705)
+![alt text](https://github.com/user-attachments/assets/99fb1ee9-5ae9-4493-a1a4-27d8d5ab119b)
 
-
-Population standard deviation input validation unit tests
-
-![alt text](https://github.com/user-attachments/assets/bd7de64a-f66d-4d6b-b0ce-a7cd8c4827bc)
+![alt text](https://github.com/user-attachments/assets/9f643f68-303c-48ad-8acf-b37ec48d0a5c)
 
 
-Mean input validation unit tests
-
-![alt text](https://github.com/user-attachments/assets/183b64e9-0489-4aeb-b9d3-877009dbfaa6)
 
 
-Z-Score input validation unit tests
 
-![alt text](https://github.com/user-attachments/assets/887b0df7-eae6-46c9-8f26-38779cf233ef)
-
-
-All calculation logic unit tests
-
-![alt text](https://github.com/user-attachments/assets/11061ce4-57e6-4264-8b3a-e0f797d04a86)
 
 
 # Link to YT video here:
