@@ -20,6 +20,15 @@ Luke McLendon
 ## Architectural diagram:
 
 ![image](https://github.com/user-attachments/assets/544ae207-c1a6-4906-aa2b-b4455095f0b2)
+Here are some notes on this project's architecture in no particular order:
+
+Site.js is potentially slightly different from what you might be expecting. In this case,  it acts as the interface between the user and the backend logic. It sends everything straight off the screen as a string that gets handled elsewhere.
+
+The controller responds with either an error or the result that goes back to Site.js to be displayed.
+
+You may notice this software isn't split up into four separate projects, and is instead split into three packages. This is yet another artifact of how Java works, using packages instead of projects. I am missing one project (Playwright end-to-end testing) because I ran out of time to implement it. The other three are present, functional, and complete.
+
+My unit tests appear a litle more involved because I'm not just validating the calculations, but also the input data for correct formatting.
 
 ## Environment:
 This program is built on and requires the following dependencies:
