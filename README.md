@@ -22,9 +22,7 @@ Luke McLendon
 ![image](https://github.com/user-attachments/assets/544ae207-c1a6-4906-aa2b-b4455095f0b2)
 
 ## Environment:
-Explain how to configure the environment to execute your web application, unit tests, and end-to-end tests......................
 This program is built on and requires the following dependencies:
-
 -Jackson Core Json library 
 
 -Tomcat 11.0.1
